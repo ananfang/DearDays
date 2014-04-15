@@ -1,0 +1,71 @@
+.fadein img {
+    position:absolute;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 25s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    12% {opacity: 1;}
+    20% {opacity: 1;}
+    35% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    12% {opacity: 1;}
+    20% {opacity: 1;}
+    35% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#f1 {
+  opacity: 1;
+}
+
+#f2 {
+  opacity: 0;
+  -webkit-animation-delay: 5s;
+}
+
+#f3 {
+  opacity: 0;
+  -webkit-animation-delay: 10s;
+}
+
+#f4 {
+  opacity: 0;
+  -webkit-animation-delay: 15s;
+}
+
+#f5 {
+  opacity: 0;
+  -webkit-animation-delay: 20s;
+}
+
+/* Image */
+.image-icon {
+  padding-top: 80px;
+}
+
+.image-download {
+  padding-top: 20px;
+}
+
+/* Text */
+.app-title {
+  color: #555555;
+  font-size: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.app-description {
+  color: #555555;
+  font-size: 24px;
+}
