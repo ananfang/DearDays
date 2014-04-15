@@ -45,15 +45,13 @@
             <img src="assets/Download_on_the_App_Store.png" class="img-responsive center-block image-download">
           </a>
 
-          <div class="row">
-            <div class="col-xs-3 col-xs-offset-2 fb-like" data-href="http://deardays.openmouse.co" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-            <div class="col-xs-2">
-              <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-            </div>
-            <div class="col-xs-2">
-              <g:plusone></g:plusone>
-            </div>
+          <!-- AddToAny BEGIN -->
+          <div class="a2a_kit a2a_kit_size_32 a2a_default_style" id="sharing_buttons">
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_google_plus"></a>
           </div>
+          <!-- AddToAny END -->
         </div>
         <div class="col-sm-4">
           <img src="assets/iPhone_5s.png" alt="iPhone 5s" class="img-responsive" style="position: absolute;">
@@ -66,43 +64,26 @@
           </div>
         </div>
       </div>
+      <div class="row footer">
+        <a href="mailto:openmouse@me.com?subject=[DearDays]%20" target="_top">Contact</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="https://www.facebook.com/239442802828069">Facebook</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="http://openmousestudio.tumblr.com/">Blog</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;  &copy; Openmouse Studio 2014
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- Google Plus -->
+    <!-- AddToAny -->
     <script type="text/javascript">
-      window.___gcfg = {
-        lang: 'en-US'
-      };
-
-      (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-      })();
+    var a2a_config = a2a_config || {};
+    a2a_config.linkname = "DearDays - Personal Automatic Journal";
+    a2a_config.linkurl = "http://deardays.openmouse.co/";
     </script>
-
-    <!-- Twitter -->
-    <script>!function(d,s,id){
-      var js,fjs=d.getElementsByTagName(s)[0];
-      if(!d.getElementById(id)){js=d.createElement(s);
-        js.id=id;
-        js.src="https://platform.twitter.com/widgets.js";
-        fjs.parentNode.insertBefore(js,fjs);
-      }
-    }(document,"script","twitter-wjs");</script>
-
-    <!-- Facebook -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "http://connect.facebook.net/en/all.js#xfbml=1";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
   </body>
 </html>
