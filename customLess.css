@@ -87,6 +87,11 @@
     padding-top: 80px;
   }
 }
+@media (max-width: 767px) {
+  .image-icon {
+    padding-top: 40px;
+  }
+}
 .image-download {
   padding-top: 20px;
   padding-bottom: 16px;
