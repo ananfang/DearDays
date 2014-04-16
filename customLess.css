@@ -105,11 +105,21 @@
   padding-top: 24px;
   padding-bottom: 16px;
 }
-.app-description {
-  font-family: HelveticaNeue-Thin, sans-serif;
-  font-weight: lighter;
-  color: #555555;
-  font-size: 24px;
+@media (min-width: 1024px) {
+  .app-description {
+    font-family: HelveticaNeue-Thin, sans-serif;
+    font-weight: lighter;
+    color: #555555;
+    font-size: 24px;
+  }
+}
+@media (max-width: 1023px) {
+  .app-description {
+    font-family: HelveticaNeue-Thin, sans-serif;
+    font-weight: lighter;
+    color: #555555;
+    font-size: 16px;
+  }
 }
 /* Sharing */
 #sharing_buttons {
