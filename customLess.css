@@ -93,18 +93,20 @@
   }
 }
 .image-download {
-  padding-top: 20px;
+  padding-top: 24px;
   padding-bottom: 16px;
 }
 /* Text */
 .app-title {
-  color: #555555;
+  font-family: HelveticaNeue, Verdana;
+  color: #aaaaaa;
   font-size: 48px;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 16px;
 }
 .app-description {
-  color: #555555;
+  font-family: HelveticaNeue, Verdana;
+  color: #aaaaaa;
   font-size: 24px;
 }
 /* Sharing */
