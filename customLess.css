@@ -94,11 +94,11 @@
   color: #555555;
   font-size: 48px;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 20px;
 }
 .app-description {
   color: #555555;
-  font-size: 24px;
+  font-size: 22px;
 }
 /* Sharing */
 #sharing_buttons {
