@@ -98,14 +98,14 @@
 }
 /* Text */
 .app-title {
-  font-family: HelveticaNeue-Light, Verdana;
+  font-family: HelveticaNeue-Thin, Verdana;
   color: #888888;
   font-size: 48px;
   padding-top: 24px;
   padding-bottom: 16px;
 }
 .app-description {
-  font-family: HelveticaNeue-Light, Verdana;
+  font-family: HelveticaNeue-Thin, Verdana;
   color: #888888;
   font-size: 24px;
 }
