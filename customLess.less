@@ -72,16 +72,17 @@
 @main-text-color: #555555;
 @main-text-font-family: HelveticaNeue-Thin, sans-serif;
 @main-text-font-weight: lighter;
-.app-title {
-  font-family: @main-text-font-family;
-  font-weight: @main-text-font-weight;
-  color: @main-text-color;
-  font-size: 48px;
-  padding-top: 24px;
-  padding-bottom: 16px;
-}
 
 @media (min-width: 1024px) {
+  .app-title {
+    font-family: @main-text-font-family;
+    font-weight: @main-text-font-weight;
+    color: @main-text-color;
+    font-size: 48px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+
   .app-description {
     font-family: @main-text-font-family;
     font-weight: @main-text-font-weight;
@@ -91,6 +92,15 @@
 }
 
 @media (max-width: 1023px) {
+  .app-title {
+    font-family: @main-text-font-family;
+    font-weight: @main-text-font-weight;
+    color: @main-text-color;
+    font-size: 36px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+
   .app-description {
     font-family: @main-text-font-family;
     font-weight: @main-text-font-weight;
