@@ -118,6 +118,12 @@
     color: #555555;
     font-size: 24px;
   }
+  .link-exchange {
+    font-family: HelveticaNeue-Thin, sans-serif;
+    font-weight: lighter;
+    color: #555555;
+    font-size: 16px;
+  }
 }
 @media (max-width: 1023px) {
   .app-title {
@@ -133,6 +139,12 @@
     font-weight: lighter;
     color: #555555;
     font-size: 15px;
+  }
+  .link-exchange {
+    font-family: HelveticaNeue-Thin, sans-serif;
+    font-weight: lighter;
+    color: #555555;
+    font-size: 14px;
   }
 }
 /* Sharing */
